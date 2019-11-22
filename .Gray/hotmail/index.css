@@ -1,0 +1,97 @@
+/* ::::: https://secure.shared.live.com/~Live.SiteContent.ID/~17.0.11/~/~/~/~/css/R3WinLive3082.css ::::: */
+
+@font-face {
+	font-family: "Segoe UI Web Light";
+	font-style: normal;
+	font-weight: 100;
+	src: local("Segoe UI Light"), local("Segoe UI"), local("Helvetica Neue");
+	unicode-range: U+0000-00FF;
+}
+@font-face {
+	font-family: "Segoe UI Web Regular";
+	font-style: normal;
+	font-weight: normal;
+	src: local("Segoe UI"), local("Helvetica Neue");
+	unicode-range: U+0000-00FF;
+}
+@font-face {
+	font-family: "Segoe UI Web Semibold";
+	font-style: normal;
+	font-weight: bold;
+	src: local("Segoe UI Semibold"), local("Segoe UI Bold"), local("Segoe UI"), local("Helvetica Neue");
+	unicode-range: U+0000-00FF;
+}
+.TextBold, .TextSemiBold { font-family: "Segoe UI Web Semibold","Segoe UI Web Regular","Segoe UI","Segoe UI Symbol","Helvetica Neue",Arial; font-weight: bold; }
+:root input[type="button"], :root input[type="submit"], :root button { height: 2.142em; min-width: 6em; font-family: "Segoe UI Web Semibold","Segoe UI Web Regular","Segoe UI","Segoe UI Symbol","Helvetica Neue",Arial; font-size: 100%; background-color: rgba(182, 182, 182, 0.7); color: rgb(33, 33, 33); padding: 3px 12px 5px; border: 0px none; }
+:root input[type="button"]:hover, :root input[type="submit"]:hover, :root button:hover { background-color: rgba(205, 205, 205, 0.82); }
+:root input[type="button"]:active, :root input[type="submit"]:active, :root button:active { background-color: rgb(33, 33, 33); color: rgb(255, 255, 255); }
+:root input[type="button"]:focus:not(.c_nobdr), :root input[type="submit"]:focus:not(.c_nobdr), :root button:focus:not(.c_nobdr) { outline: 1px dotted rgb(33, 33, 33); }
+:root input.default[type="button"], :root input.default[type="submit"], :root button.default { background-color: rgb(38, 114, 236); color: rgb(255, 255, 255); }
+:root input.default[type="button"]:hover, :root input.default[type="submit"]:hover, :root button.default:hover { background-color: rgb(90, 148, 241); }
+:root input.default[type="button"]:active, :root input.default[type="submit"]:active, :root button.default:active, :root input.default[type="button"]:hover:active, :root input.default[type="submit"]:hover:active, :root button.default:hover:active { background-color: rgb(33, 33, 33); }
+:root input[type="button"]:disabled, :root input[type="submit"]:disabled, :root button:disabled { background-color: rgba(202, 202, 202, 0.49) ! important; color: rgba(33, 33, 33, 0.49) ! important; }
+:root input[type="text"], :root input[type="password"], :root input[type="email"], :root input[type="number"], :root input[type="tel"], :root textarea { width: 18.544em; padding: 4px 8px; font-family: "Segoe UI","Segoe UI Web Regular","Segoe UI Symbol","Helvetica Neue","BBAlpha Sans","S60 Sans",Arial,"sans-serif"; font-size: 100%; color: rgb(33, 33, 33); border: 1px solid rgb(186, 186, 186); background-color: rgba(255, 255, 255, 0.8); }
+:root input[type="text"], :root input[type="password"], :root input[type="email"], :root input[type="number"], :root input[type="tel"] { height: 1.571em; }
+:root input[type="text"]:hover, :root input[type="password"]:hover, :root input[type="email"]:hover, :root input[type="number"]:hover, :root input[type="tel"]:hover, :root textarea:hover { border-color: rgb(143, 143, 143); }
+:root input[type="text"]:focus, :root input[type="password"]:focus, :root input[type="email"]:focus, :root input[type="number"]:focus, :root input[type="tel"]:focus, :root textarea:focus { border-color: rgb(92, 92, 92); outline: medium none; }
+:root input[type="text"]:disabled, :root input[type="password"]:disabled, :root input[type="email"]:disabled, :root input[type="number"]:disabled, :root input[type="tel"]:disabled, :root textarea:disabled { color: rgba(33, 33, 33, 0.27); background-color: rgba(202, 202, 202, 0.49); border-color: rgba(0, 0, 0, 0.15); }
+:root input[type="checkbox"], :root input[type="radio"] { position: absolute; padding: 0px; width: 19px; height: 19px; margin: 0px; float: left; cursor: default; }
+BODY:not(.IE_M9) input[type="checkbox"], BODY:not(.IE_M9) input[type="radio"] { opacity: 0; }
+:root input[type="checkbox"]:last-child, :root input[type="radio"]:last-child { position: static; float: none; }
+BODY:not(.IE_M9) input[type="checkbox"]:last-child, BODY:not(.IE_M9) input[type="radio"]:last-child { opacity: 1; }
+:root input[type="checkbox"] + label, :root input[type="radio"] + label { display: inline-block; background: url('controls.png') no-repeat scroll left top, url('controls.png') no-repeat scroll left top, url('controls.png') no-repeat scroll left top transparent; height: 19px; padding-left: 24px; cursor: default; }
+BODY.highContrast:not(.IE_M9) input[type="checkbox"], BODY.highContrast:not(.IE_M9) input[type="radio"] { opacity: 1; }
+:root input[type="checkbox"] + label { background-position: left -38px; }
+:root input[type="checkbox"]:checked + label { background-position: left 38px, left -114px, left -38px; }
+:root input[type="checkbox"]:active + label, :root input[type="checkbox"] + label:active { background-position: left -57px; }
+:root input[type="checkbox"]:active:checked + label, :root input[type="checkbox"]:checked + label:active { background-position: left 38px, left -152px, left -57px; }
+:root input[type="checkbox"]:disabled + label { background-position: left -76px; }
+:root input[type="checkbox"]:disabled:checked + label { background-position: left 38px, left -133px, left -76px; }
+:root input[type="checkbox"]:focus:not(.c_nobdr) + label:not(.c_nobdr) { background-position: left 0px, left 38px, left -38px; }
+:root input[type="checkbox"]:focus:checked:not(.c_nobdr) + label:not(.c_nobdr) { background-position: left 0px, left -114px, left -38px; }
+:root input[type="checkbox"]:focus:active:not(.c_nobdr) + label:not(.c_nobdr), :root input[type="checkbox"]:focus:not(.c_nobdr) + label:active:not(.c_nobdr) { background-position: left 0px, left 38px, left -57px; }
+:root input[type="checkbox"]:focus:active:checked:not(.c_nobdr) + label:not(.c_nobdr), :root input[type="checkbox"]:focus:checked:not(.c_nobdr) + label:active:not(.c_nobdr) { background-position: left 0px, left -152px, left -57px; }
+:root input[type="radio"]:focus:not(.c_nobdr) + label:not(.c_nobdr) { background-position: left 0px, left 38px, left -228px; }
+:root input[type="radio"]:focus:checked:not(.c_nobdr) + label:not(.c_nobdr) { background-position: left 0px, left -304px, left -228px; }
+:root input[type="radio"]:focus:active:not(.c_nobdr) + label:not(.c_nobdr), :root input[type="radio"]:focus:not(.c_nobdr) + label:active:not(.c_nobdr) { background-position: left 0px, left 38px, left -247px; }
+:root input[type="radio"]:focus:active:checked:not(.c_nobdr) + label:not(.c_nobdr), :root input[type="radio"]:focus:checked:not(.c_nobdr) + label:active:not(.c_nobdr) { background-position: left 0px, left -342px, left -247px; }
+.errorDiv, .editableLabel.error { color: rgb(200, 83, 5); font-size: 86%; line-height: 178%; margin-top: 18px; margin-bottom: 12px; white-space: normal; }
+* { line-height: 142%; }
+body { margin: 0px; font-family: "Segoe UI","Segoe UI Web Regular","Segoe UI Symbol","Helvetica Neue","BBAlpha Sans","S60 Sans",Arial,"sans-serif"; color: rgb(0, 0, 0); direction: ltr; font-size: 88%; background-color: rgb(255, 255, 255); }
+label { color: rgb(0, 0, 0); }
+input, select, textarea, button { font-size: 100%; font-family: "Segoe UI","Segoe UI Web Regular","Segoe UI Symbol","Helvetica Neue","BBAlpha Sans","S60 Sans",Arial,"sans-serif"; }
+a { font-weight: inherit; text-decoration: none; color: rgb(38, 114, 236); cursor: pointer; }
+a:visited { color: rgb(38, 114, 236); }
+input[type="text"], input[type="password"], input[type="email"], input[type="tel"] { ime-mode: inactive; }
+input[type="email"], input[type="tel"], .ltr_override { direction: ltr; }
+.secondary, .help { color: rgb(102, 102, 102); }
+input[type="text"], input[type="password"], input[type="email"], input[type="tel"] { padding: 4px 8px; height: 1.466em; width: 302px; }
+:root input[type="text"], :root input[type="password"], :root input[type="email"], :root input[type="tel"] { width: 302px; }
+div.placeholder { color: rgb(102, 102, 102); background-color: transparent; margin-top: 6px; margin-left: 9px; white-space: nowrap; }
+div.placeholder.ltr_override { margin-left: 9px; margin-right: auto; text-align: left; }
+div.textbox, select { width: 320px; }
+div.section { margin-bottom: 30px; }
+div.row, div.section > div { margin-bottom: 8px; }
+div.row.small, div.section > div.small { margin-bottom: 6px; font-size: 86%; }
+div.row.label, div.section > div.label { margin-bottom: 4px; font-size: 86%; }
+div.errorDiv.first { margin-top: 0px; }
+html { overflow: auto; }
+form { margin: 0px; }
+div.centerParent, td.centerParent { text-align: center; }
+div.center, table.center { margin-left: auto; margin-right: auto; text-align: left; }
+div.SignUp { margin-top: 50px; }
+div.floatLeft { float: left; }
+div.signInHeader { margin-left: 100px; }
+div.signUpFloat { position: absolute; margin-left: 100px; left: 0px; bottom: 0px; }
+div.footer { font-size: 86%; border-top: 1px solid rgb(204, 204, 204); }
+table.footer { width: 100%; padding: 10px 0px; }
+td.footerspace { width: 10px; }
+a.footerlink { color: rgb(0, 0, 0); }
+:root input[type="checkbox"] + label, :root input[type="radio"] + label { background-image: url('controls_001.png'), url('controls_001.png'), url('controls_001.png'); }
+a, a:visited { color: rgb(0, 114, 198); }
+a:hover { color: rgb(51, 142, 209); }
+a:hover:active { color: rgb(102, 170, 220); }
+:root input.default[type="button"], :root input.default[type="submit"] { background-color: rgb(0, 114, 198); }
+:root input.default[type="button"]:hover, :root input.default[type="submit"]:hover, :root button.default:hover { background-color: rgb(30, 130, 204); }
+body { display: none; }
+body { display: block ! important; }

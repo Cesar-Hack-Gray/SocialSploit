@@ -1,0 +1,84 @@
+html, body, div, h1, h2, h3, h4, h5, h6, p, img, dl, dt, dd, ol, ul, li, table, tr, td, form, object, embed, article, aside, canvas, command, details, fieldset, figcaption, figure, footer, group, header, hgroup, legend, mark, menu, meter, nav, output, progress, section, summary, time, audio, video { margin: 0px; padding: 0px; border: 0px none; }
+html { font: 81.25%/1 arial,helvetica,sans-serif; background: none repeat scroll 0% 0% rgb(255, 255, 255); color: rgb(51, 51, 51); direction: ltr; }
+a { color: rgb(17, 85, 204); text-decoration: none; }
+a:active { color: rgb(209, 72, 54); }
+a:hover { text-decoration: underline; }
+h1, h2, h3, h4, h5, h6 { color: rgb(34, 34, 34); font-size: 1.54em; font-weight: normal; line-height: 24px; margin: 0px 0px 0.46em; }
+p { line-height: 17px; margin: 0px 0px 1em; }
+ol, ul { list-style: none outside none; line-height: 17px; margin: 0px 0px 1em; }
+li { margin: 0px 0px 0.5em; }
+strong { color: rgb(34, 34, 34); }
+html, body { position: absolute; height: 100%; min-width: 100%; }
+.wrapper { position: relative; min-height: 100%; }
+.content { padding: 0px 44px; }
+.google-header-bar { height: 71px; background: none repeat scroll 0% 0% rgb(241, 241, 241); border-bottom: 1px solid rgb(229, 229, 229); overflow: hidden; }
+.header .logo { margin: 17px 0px 0px; float: left; }
+.header .signin-button, .header .signup-button { margin: 22px 0px 0px; float: right; }
+.header .signup-button a { position: relative; top: -1px; margin: 0px 0px 0px 1em; }
+.main { margin: 0px auto; width: 650px; padding-top: 23px; padding-bottom: 100px; }
+.main h1:first-child { margin: 0px 0px 0.92em; }
+.google-footer-bar { position: absolute; bottom: 0px; height: 35px; width: 100%; border-top: 1px solid rgb(235, 235, 235); overflow: hidden; }
+.footer { padding-top: 9px; font-size: 0.85em; white-space: nowrap; line-height: 0; }
+.footer ul { color: rgb(153, 153, 153); float: left; max-width: 80%; }
+.footer ul li { display: inline; padding: 0px 1.5em 0px 0px; }
+.footer a { color: rgb(51, 51, 51); }
+.footer .lang-chooser-wrap { float: right; max-width: 20%; }
+.footer .lang-chooser-wrap img { vertical-align: middle; }
+.redtext { color: rgb(221, 75, 57); }
+.clearfix:after { visibility: hidden; display: block; font-size: 0px; content: "."; clear: both; height: 0px; }
+:first-child + html .clearfix {  }
+button, input, select, textarea { font-family: inherit; font-size: inherit; }
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0px none; }
+input[type="email"], input[type="number"], input[type="password"], input[type="tel"], input[type="text"], input[type="url"] { display: inline-block; height: 29px; margin: 0px; padding: 0px 8px; background: none repeat scroll 0% 0% rgb(255, 255, 255); border-right: 1px solid rgb(217, 217, 217); border-width: 1px; border-style: solid; border-color: rgb(192, 192, 192) rgb(217, 217, 217) rgb(217, 217, 217); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; -moz-box-sizing: border-box; border-radius: 1px 1px 1px 1px; }
+input[type="email"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="url"]:hover { border-right: 1px solid rgb(185, 185, 185); border-width: 1px; border-style: solid; border-color: rgb(160, 160, 160) rgb(185, 185, 185) rgb(185, 185, 185); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1) inset; }
+input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus { outline: medium none; border: 1px solid rgb(77, 144, 254); box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3) inset; }
+input[type="checkbox"], input[type="radio"] { width: 13px; height: 13px; margin: 0px; cursor: pointer; vertical-align: bottom; background: none repeat scroll 0% 0% rgb(255, 255, 255); border: 1px solid rgb(220, 220, 220); border-radius: 1px 1px 1px 1px; -moz-box-sizing: border-box; position: relative; }
+input[type="checkbox"]:active, input[type="radio"]:active { border-color: rgb(198, 198, 198); background: none repeat scroll 0% 0% rgb(235, 235, 235); }
+input[type="checkbox"]:hover { border-color: rgb(198, 198, 198); box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1) inset; }
+input[type="checkbox"]:checked, input[type="radio"]:checked { background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+input[type="checkbox"]:checked:after { content: url('checkmark.png'); display: block; position: absolute; top: -6px; left: -5px; }
+input[type="checkbox"]:focus { outline: medium none; border-color: rgb(77, 144, 254); }
+.g-button { display: inline-block; min-width: 46px; text-align: center; color: rgb(68, 68, 68); font-size: 11px; font-weight: bold; height: 27px; padding: 0px 8px; line-height: 27px; border-radius: 2px 2px 2px 2px; transition: all 0.218s ease 0s ; border: 1px solid rgb(220, 220, 220); background-color: rgb(245, 245, 245); background-image: -moz-linear-gradient(center top , rgb(245, 245, 245), rgb(241, 241, 241)); -moz-user-select: none; cursor: default; }
+button.g-button, input.g-button[type="submit"] { height: 29px; line-height: 29px; vertical-align: bottom; margin: 0px; }
+.g-button:hover { border: 1px solid rgb(198, 198, 198); color: rgb(51, 51, 51); text-decoration: none; transition: all 0s ease 0s ; background-color: rgb(248, 248, 248); background-image: -moz-linear-gradient(center top , rgb(248, 248, 248), rgb(241, 241, 241)); box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1); }
+.g-button:active { background-color: rgb(246, 246, 246); background-image: -moz-linear-gradient(center top , rgb(246, 246, 246), rgb(241, 241, 241)); box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1) inset; }
+.g-button:visited { color: rgb(102, 102, 102); }
+.g-button-submit { border: 1px solid rgb(48, 121, 237); color: rgb(255, 255, 255); text-shadow: 0px 1px rgba(0, 0, 0, 0.1); background-color: rgb(77, 144, 254); background-image: -moz-linear-gradient(center top , rgb(77, 144, 254), rgb(71, 135, 237)); }
+.g-button-submit:hover { border: 1px solid rgb(47, 91, 183); color: rgb(255, 255, 255); text-shadow: 0px 1px rgba(0, 0, 0, 0.3); background-color: rgb(53, 122, 232); background-image: -moz-linear-gradient(center top , rgb(77, 144, 254), rgb(53, 122, 232)); }
+.g-button-submit:active { background-color: rgb(53, 122, 232); background-image: -moz-linear-gradient(center top , rgb(77, 144, 254), rgb(53, 122, 232)); box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3) inset; }
+.g-button-red { border: 1px solid transparent; color: rgb(255, 255, 255); text-shadow: 0px 1px rgba(0, 0, 0, 0.1); text-transform: uppercase; background-color: rgb(209, 72, 54); background-image: -moz-linear-gradient(center top , rgb(221, 75, 57), rgb(209, 72, 54)); }
+.g-button-red:hover { border: 1px solid rgb(176, 40, 26); color: rgb(255, 255, 255); text-shadow: 0px 1px rgba(0, 0, 0, 0.3); background-color: rgb(197, 55, 39); background-image: -moz-linear-gradient(center top , rgb(221, 75, 57), rgb(197, 55, 39)); box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2); }
+.g-button-red:active { border: 1px solid rgb(153, 42, 27); background-color: rgb(176, 40, 26); background-image: -moz-linear-gradient(center top , rgb(221, 75, 57), rgb(176, 40, 26)); box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3) inset; color: rgb(255, 255, 255); }
+.g-button-red:visited, .g-button-share:visited, .g-button-submit:visited { color: rgb(255, 255, 255); }
+.g-button-submit:focus, .g-button-share:focus, .g-button-red:focus { box-shadow: 0px 0px 0px 1px rgb(255, 255, 255) inset; }
+.g-button-red:focus { border-color: rgb(209, 72, 54); }
+.g-button-submit:focus:hover, .g-button-share:focus:hover, .g-button-red:focus:hover { box-shadow: 0px 0px 0px 1px rgb(255, 255, 255) inset, 0px 1px 1px rgba(0, 0, 0, 0.1); }
+:first-child + html .goog-inline-block { display: inline; }
+.main { width: auto; max-width: 1000px; min-width: 780px; }
+.product-info { margin: 0px 385px 0px 0px; }
+.sign-in { width: 335px; float: right; }
+.signin-box, .accountchooser-box { margin: 12px 0px 0px; padding: 20px 25px 15px; background: none repeat scroll 0% 0% rgb(241, 241, 241); border: 1px solid rgb(229, 229, 229); }
+.product-headers { margin: 0px 0px 1.5em; }
+.product-headers h1 { font-size: 25px; margin: 0px ! important; }
+.product-headers h2 { font-size: 16px; margin: 0.4em 0px 0px; }
+.features { overflow: hidden; margin: 2em 0px 0px; }
+.features li { margin: 3px 0px 2em; }
+.features img { float: left; margin: -3px 0px 0px; }
+.features p { margin: 0px 0px 0px 68px; }
+.features .title { font-size: 16px; margin-bottom: 0.3em; }
+.signin-box h2 { font-size: 16px; line-height: 17px; height: 16px; margin: 0px 0px 1.2em; position: relative; }
+.signin-box h2 strong { display: inline-block; position: absolute; right: 0px; top: 1px; height: 19px; width: 52px; background: url('google-signin-flat.png') no-repeat scroll 0% 0% transparent; }
+@media not all {
+	.signin-box h2 strong { background: url('google-signin-flat_2x.png') no-repeat scroll 0% 0% / 52px 19px transparent; }
+}
+.signin-box div { margin: 0px 0px 1.5em; }
+.signin-box label { display: block; }
+.signin-box input[type="email"], .signin-box input[type="text"], .signin-box input[type="password"] { width: 100%; height: 32px; font-size: 15px; direction: ltr; }
+.signin-box .email-label, .signin-box .passwd-label { font-weight: bold; margin: 0px 0px 0.5em; display: block; -moz-user-select: none; }
+.signin-box label.remember { display: inline-block; vertical-align: top; margin: 9px 0px 0px; }
+.signin-box .remember-label { font-weight: normal; color: rgb(102, 102, 102); line-height: 0; padding: 0px 0px 0px 0.4em; -moz-user-select: none; }
+.signin-box input[type="submit"] { margin: 0px 1.5em 1.2em 0px; height: 32px; font-size: 13px; }
+.signin-box ul { margin: 0px; }
+.youtube .product-headers h1 { text-indent: -9999em; width: 95px; height: 44px; background: url('youtube_logo.png') no-repeat scroll 0px 0px rgb(255, 255, 255); }
+.youtube .features p { margin-left: 74px; }
+.youtube .features li { min-height: 56px; }

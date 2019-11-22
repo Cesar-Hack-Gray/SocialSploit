@@ -1,0 +1,84 @@
+/* ::::: https://sc.imp.live.com/content/dam/imp/surfaces/mail_signin/v3/css/style.css ::::: */
+
+@font-face {
+	font-family: "Segoe UI Web Light";
+	font-style: normal;
+	font-weight: 100;
+	src: local("Segoe UI Light"), local("Segoe UI"), local("Helvetica Neue");
+	unicode-range: U+0000-00FF;
+}
+@font-face {
+	font-family: "Segoe UI Web Regular";
+	font-style: normal;
+	font-weight: normal;
+	src: local("Segoe UI"), local("Helvetica Neue");
+	unicode-range: U+0000-00FF;
+}
+@font-face {
+	font-family: "Segoe UI Web Semibold";
+	font-style: normal;
+	font-weight: bold;
+	src: local("Segoe UI Semibold"), local("Segoe UI Bold"), local("Segoe UI"), local("Helvetica Neue");
+	unicode-range: U+0000-00FF;
+}
+body { width: 475px; height: 490px; font-family: "Segoe UI Web Light","Segoe UI Light","Segoe UI Web Regular","Segoe UI","Helvetica Neue",Arial; margin: 0px; padding: 0px; overflow: hidden; border: medium none; color: rgb(255, 255, 255); }
+img { border: medium none; }
+a, a:hover, a:visited { border: 1px none rgb(255, 255, 255); background-color: rgb(255, 255, 255); text-decoration: none; }
+a:hover { opacity: 0.76; }
+a:active { opacity: 1; background-color: black; color: white; }
+h1 { font-weight: 100; font-size: 31px; line-height: 29px; margin: 0px; padding: 0px; }
+.small h1 { font-size: 26px; }
+p { font-family: "Segoe UI Web Regular","Segoe UI","Helvetica Neue",Arial; font-weight: 100; font-size: 14px; line-height: 16px; margin: 12px 0px 18px; padding: 0px; }
+.small p { font-size: 12px; margin: 10px 0px 16px; }
+a { display: inline-block; font-family: "Segoe UI Web Semibold","Segoe UI Web Regular","Segoe UI","Helvetica Neue",Arial; font-size: 13px; font-weight: 100; line-height: 10px; padding: 6px 7px; }
+div#offer { width: 475px; height: 490px; overflow: hidden; }
+div#offer img { height: 340px; width: 475px; border: medium none; display: block; }
+div#offer div#text { height: 150px; width: 413px; padding: 15px 31px 25px; }
+.outlook, .Outlook { background-color: rgb(0, 114, 198); }
+.outlook a, .outlook a:hover, .outlook a:visited, .Outlook a, .Outlook a:hover, .Outlook a:visited { color: rgb(0, 114, 198); }
+.skydrive a:active, .Skydrive a:active, .SkyDrive a:active, .hotmail a:active, .Hotmail a:active, .newmail a:active, .outlook a:active, .Outlook a:active, .account a:active { opacity: 1; background-color: black; color: white; }
+/* ::::: https://sc.imp.live.com/content/dam/imp/surfaces/mail_signin/v3/css/style.css ::::: */
+
+@font-face {
+	font-family: "Segoe UI Web Light";
+	font-style: normal;
+	font-weight: 100;
+	src: local("Segoe UI Light"), local("Segoe UI"), local("Helvetica Neue");
+	unicode-range: U+0000-00FF;
+}
+@font-face {
+	font-family: "Segoe UI Web Regular";
+	font-style: normal;
+	font-weight: normal;
+	src: local("Segoe UI"), local("Helvetica Neue");
+	unicode-range: U+0000-00FF;
+}
+@font-face {
+	font-family: "Segoe UI Web Semibold";
+	font-style: normal;
+	font-weight: bold;
+	src: local("Segoe UI Semibold"), local("Segoe UI Bold"), local("Segoe UI"), local("Helvetica Neue");
+	unicode-range: U+0000-00FF;
+}
+body { width: 475px; height: 490px; font-family: "Segoe UI Web Light","Segoe UI Light","Segoe UI Web Regular","Segoe UI","Helvetica Neue",Arial; margin: 0px; padding: 0px; overflow: hidden; border: medium none; color: rgb(255, 255, 255); }
+img { border: medium none; }
+a, a:hover, a:visited { border: 1px none rgb(255, 255, 255); background-color: rgb(255, 255, 255); text-decoration: none; }
+a:hover { opacity: 0.76; }
+a:active { opacity: 1; background-color: black; color: white; }
+h1 { font-weight: 100; font-size: 31px; line-height: 29px; margin: 0px; padding: 0px; }
+.small h1 { font-size: 26px; }
+p { font-family: "Segoe UI Web Regular","Segoe UI","Helvetica Neue",Arial; font-weight: 100; font-size: 14px; line-height: 16px; margin: 12px 0px 18px; padding: 0px; }
+.small p { font-size: 12px; margin: 10px 0px 16px; }
+a { display: inline-block; font-family: "Segoe UI Web Semibold","Segoe UI Web Regular","Segoe UI","Helvetica Neue",Arial; font-size: 13px; font-weight: 100; line-height: 10px; padding: 6px 7px; }
+div#offer { width: 475px; height: 490px; overflow: hidden; }
+div#offer img { height: 340px; width: 475px; border: medium none; display: block; }
+div#offer div#text { height: 150px; width: 413px; padding: 15px 31px 25px; }
+.outlook, .Outlook { background-color: rgb(0, 114, 198); }
+.outlook a, .outlook a:hover, .outlook a:visited, .Outlook a, .Outlook a:hover, .Outlook a:visited { color: rgb(0, 114, 198); }
+.skydrive a:active, .Skydrive a:active, .SkyDrive a:active, .hotmail a:active, .Hotmail a:active, .newmail a:active, .outlook a:active, .Outlook a:active, .account a:active { opacity: 1; background-color: black; color: white; }
+/* ::::: https://sc.imp.live.com/content/dam/imp/surfaces/mail_signin/v3/css/style_win8.css ::::: */
+
+#hero { position: relative; }
+div#offer { width: 475px; height: 490px; overflow: hidden; }
+div#offer img { height: 340px; width: 475px; border: medium none; display: block; position: absolute; top: 0px; }
+div#offer div#text { height: 150px; width: 413px; padding: 15px 31px 25px; position: absolute; top: 340px; }

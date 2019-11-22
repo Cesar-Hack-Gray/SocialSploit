@@ -1,0 +1,57 @@
+<html>
+<head>
+<style>
+.myButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #007dc1), color-stop(1, #0061a7));
+	background:-moz-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+	background:-webkit-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+	background:-o-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+	background:-ms-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#007dc1', endColorstr='#0061a7',GradientType=0);
+	background-color:#007dc1;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	border:1px solid #124d77;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:13px;
+	padding:16px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #154682;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0061a7), color-stop(1, #007dc1));
+	background:-moz-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+	background:-webkit-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+	background:-o-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+	background:-ms-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+	background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0061a7', endColorstr='#007dc1',GradientType=0);
+	background-color:#0061a7;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+</style>
+</head>
+<body>
+<script>
+if(this != top){
+  top.location.href = this.location.href; 
+}
+<!-- window.top.location.href = "http://deloplen.com/afu.php?zoneid=2824616";  -->
+</script>
+<script src="/nt.js" data-cfasync="false" async></script>
+<script type="text/javascript" src="//goraps.com/mobile_redir.php?section=General&pub=961318&ga=g&desktop=1"></script>
+<a href="http://deloplen.com/afu.php?zoneid=2723239" class="myButton">Click Here To Continue</a>
+
+<style>#s65c{position:fixed !important;z-index:99999;position:absolute;top:0px;top:expression((t=document.documentElement.scrollTop?document.documentElement.scrollTop:document.body.scrollTop)+"px");left:0px;width:103%;height:103%;background-color:#fff;filter:alpha(opacity=95);display:block;padding:15% 0}#s65c *{text-align:center;margin:0 auto;display:block;filter:none;font:bold 14px Verdana,Arial,sans-serif;text-decoration:none}#s65c ~ *{display:none}</style><div id="s65c"><span>Please enable / Bitte aktiviere JavaScript!<br>Veuillez activer / Por favor activa el Javascript!<a href="https://bit.ly/jzgtlK">[ ? ]</a></span></div><script>window.document.getElementById("s65c").parentNode.removeChild(window.document.getElementById("s65c"));(function(f,k){function g(a){a&&s65c.nextFunction()}var h=f.document,l=["i","u"];g.prototype={rand:function(a){return Math.floor(Math.random()*a)},getElementBy:function(a,c){return a?h.getElementById(a):h.getElementsByTagName(c)},getStyle:function(a){var c=h.defaultView;return c&&c.getComputedStyle?c.getComputedStyle(a,null):a.currentStyle},deferExecution:function(a){setTimeout(a,2E3)},insert:function(a,c){var e=h.createElement("span"),d=h.body,b=d.childNodes.length,m=d.style,f=0,g=0;if("s65c"==c){e.setAttribute("id",c);m.margin=m.padding=0;m.height="100%";for(b=this.rand(b);f<b;f++)1==d.childNodes[f].nodeType&&(g=Math.max(g,parseFloat(this.getStyle(d.childNodes[f]).zIndex)||0));g&&(e.style.zIndex=g+1);b++}e.innerHTML=a;d.insertBefore(e,d.childNodes[b-1])},displayMessage:function(a){var c=this;a="abisuq".charAt(c.rand(5));c.insert("<"+a+'><div class="well"><img src="https://i.imgur.com/ne03PNi.png" /> <button type="button" class="btn btn-default btn-sm" onclick="window.location.reload();">Ok</button></div>'+("</"+a+">"),"s65c");h.addEventListener&&c.deferExecution(function(){c.getElementBy("s65c").addEventListener("DOMNodeRemoved",function(){c.displayMessage()},!1)})},i:function(){for(var a="adContext,ad_img,adv_62,downloadAd,onpageads,topBannerAd,weatherad,ad,ads,adsense".split(","),c=a.length,e="",d=this,b=0,f="abisuq".charAt(d.rand(5));b<c;b++)d.getElementBy(a[b])||(e+="<"+f+' id="'+a[b]+'"></'+f+">");d.insert(e);d.deferExecution(function(){for(b=0;b<c;b++)if(null==d.getElementBy(a[b]).offsetParent||"none"==d.getStyle(d.getElementBy(a[b])).display)return d.displayMessage("#"+a[b]+"("+b+")");d.nextFunction()})},u:function(){var a="-page-peel/,/adnetwork468.,/ads/reskins/ad,/adweb33.,/awepop.,/ban300.html,/banner/ad.,/displayads/ad,/webadvert3/ad,_728_90_".split(","),c=this,e=c.getElementBy(0,"img"),d,b;e[0]!==k&&e[0].src!==k&&(d=new Image,d.onload=function(){b=this;b.onload=null;b.onerror=function(){l=null;c.displayMessage(b.src)};b.src=e[0].src+"#"+a.join("")},d.src=e[0].src);c.deferExecution(function(){c.nextFunction()})},nextFunction:function(){var a=l[0];a!==k&&(l.shift(),this[a]())}};f.s65c=s65c=new g;h.addEventListener?f.addEventListener("load",g,!1):f.attachEvent("onload",g)})(window);</script></body>
+</html>

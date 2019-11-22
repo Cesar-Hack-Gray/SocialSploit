@@ -1,0 +1,28 @@
+.signup {
+	-moz-box-shadow:inset -1px 0px 0px 0px #caefab;
+	-webkit-box-shadow:inset -1px 0px 0px 0px #caefab;
+	box-shadow:inset -1px 0px 0px 0px #caefab;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #7ef218), color-stop(1, #5cb811) );
+	background:-moz-linear-gradient( center top, #7ef218 5%, #5cb811 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7ef218', endColorstr='#5cb811');
+	background-color:#7ef218;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:12px 24px;
+	text-decoration:none;
+	}.signup:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #5cb811), color-stop(1, #7ef218) );
+	background:-moz-linear-gradient( center top, #5cb811 5%, #7ef218 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5cb811', endColorstr='#7ef218');
+	background-color:#5cb811;
+}.signup:active {
+	position:relative;
+	top:1px;
+}
+

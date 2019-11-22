@@ -1,0 +1,78 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+
+}
+
+body {
+background: #FDFEFE;
+}
+.login-form-wrap {
+  background: #FFF;
+  position: relative;
+  width: auto;
+  height: auto;
+  padding: 20px 10px;
+  text-align: center;
+}
+.login-form-wrap > h1 {
+  margin: 0 0 50px 0;
+  padding: 0;
+  font-size: 26px;
+  color: #f00;
+}
+.login-form-wrap > h5 {
+  margin-top: 40px;
+}
+.login-form-wrap > h5 > a {
+  font-size: 14px;
+  color: #f00;
+  text-decoration: none;
+  font-weight: 400;
+}
+.login-form input{
+    width: 100%;
+    background: #FFF;
+    color: #566573;
+    border: none;
+    border-bottom: 1px solid #daebfb;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    height: 40px;
+}
+input:focus, input:active{
+    outline: none;
+    color: #273746;
+}
+.login-form input[type="submit"] {
+    margin: 15px 0px;
+    font-size: 15pt;
+    padding: 0px;
+    background:#4c69a1;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+	color: #FFF;
+}
+::-webkit-input-placeholder {
+   color: white;
+    
+}
+:-moz-placeholder { /* Firefox 18- */
+   color: white; 
+}
+::-moz-placeholder {  /* Firefox 19+ */
+   color: white;   
+}
+:-ms-input-placeholder {  
+   color: white;
+
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: gray;
+}

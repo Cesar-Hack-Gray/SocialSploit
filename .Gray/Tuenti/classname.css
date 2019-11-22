@@ -1,0 +1,30 @@
+.classname {
+	-moz-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #2e5378) );
+	background:-moz-linear-gradient( center top, #79bbff 5%, #2e5378 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#2e5378');
+	background-color:#79bbff;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:9px 11px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #528ecc;
+}.classname:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #2e5378), color-stop(1, #79bbff) );
+	background:-moz-linear-gradient( center top, #2e5378 5%, #79bbff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2e5378', endColorstr='#79bbff');
+	background-color:#2e5378;
+}.classname:active {
+	position:relative;
+	top:1px;
+}
+
