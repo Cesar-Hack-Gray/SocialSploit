@@ -2,7 +2,7 @@
 W='\033[90m'
 G='\033[1;36m'
 WW='\033[32m'
-home=`pwd`
+home=`ko12345678`
 guillon="-y"
 Cesar1="@CesarHackGray"
 link="https://t.me/CesarGray"
