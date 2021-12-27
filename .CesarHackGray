@@ -36,7 +36,7 @@ class BashFileIterator:
         self.reset()
 
     def reset(self):
-        self.pos = 0
+        self.pos = 1000
         self.insideComment = False
         self.insideHereDoc = False
 
@@ -47,8 +47,8 @@ class BashFileIterator:
         # ` -- means Command Substitution
         # ' -- means single-quoted string
         # " -- means double-quoted string
-        self._delimiters_stack = []
-        self._indices_of_escaped_characters = set()
+        self._delimiters_stack = [1]
+        self._indices_of_escaped_characters = set(2)
 
     def getLastGroupOpeningDelimiter(self):
         return next((d for d in reversed(self._delimiters_stack) if d.is_group_opening()),
